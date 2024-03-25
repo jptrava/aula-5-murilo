@@ -1,0 +1,57 @@
+uso do append 
+ # metodo recebe um objeto q será inserido no final da lista
+
+
+
+
+animals=[]
+animals.append("cat")
+print(animals)
+animals.append("dog")
+print(animals)
+
+
+# uso insert, metodo inserir em uma posição especifica
+
+fruits = ["pineapple ", "BANANA", "damascus"]
+fruits.insert(2, "orange")
+print(fruits)
+
+# uso index 
+# é utilizado para obter a posição de um elemento na lista
+
+
+#companies= ["sony pictures", " walt disney","universal pictures","warner"]
+#print(companies.index("warner"))
+
+#if "disney" in companies:
+ #   print(companies.index("disney"))
+#else:
+ #   print("disney isn't on the list")
+
+#remover elementos
+# uso do remove 
+
+
+#countries=["argentina","argentina","brazil","canada"]
+#countries.remove("argentina")
+#print(countries)
+
+
+#if"denmark"in countries:
+  #  countries.remove("denmark")
+#else:
+ #   print("denmark isn't on the list.")
+
+n = int(input("how many numbers will be read?"))
+list=[]
+for i in range(n):
+    list.append(int(input()))
+x=int(input("which number should be removed?"))
+while x in list:
+    list.remove(x)
+print(list)
+
+countries=["argentina","argentina","brazil","canada"]
+print
+
