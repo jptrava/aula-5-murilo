@@ -1,0 +1,61 @@
+ USO COLCHETES
+fruits=["Pineaaple","Banana","Khaki","Damascus"]
+numbers=[1,1,2,3,5,8,13,21,34,55,89]
+letters=["A","B","C","D","E","F","G","H"]
+Data=["Carlos",19,True,1.78,2001]
+
+
+
+
+a =list(range(10))
+a = list()
+companies = list(["Toyota", "Volkswagen","Ford"])
+ifsp=list("IFSP")
+
+
+"""""
+acesso ao i_ésimo elemento
+primeiro elemento [0]
+"""""
+
+
+#letters=["A","B","C","D","F","G","H"]
+#print(letters[0])
+#print(letters[1])
+#print(letters[4])
+
+# ACESSO INVERTIDO 
+
+#letters=["A","B","C","D","F","G","H"]
+#print(letters[-1])
+#print(letters[-2])
+#print(letters[-5])
+
+#letters=["A","B","C","D","F","G","H"]
+
+#print(letters[-15])
+
+
+
+#print(len(fruits))
+#print(len(numbers))
+
+
+# intervalos
+
+#list[start:stop:step]
+
+#alterando elemento
+#companies= ["apple","samsung","LG","facebook"]
+#companies[2]= "google"
+#print(companies)
+
+
+#alternado um trevho da lista 
+
+#list= [0, 1,2,3,4,5,6]
+#list[2:4]= ["a","b"]
+#print(list)
+
+
+
